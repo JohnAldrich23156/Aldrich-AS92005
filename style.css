@@ -1,0 +1,9 @@
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar-container {
+    top: margin 40px;
+    padding: 60px;
+    display: flex
