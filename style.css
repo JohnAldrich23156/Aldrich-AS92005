@@ -16,7 +16,7 @@ grid-row-gap: 0px;
     top: margin 100%;
     bottom: margin 20%;
     display: flex;
-    justify-content: space between;
+    justify-content: space-around;
     align-items: center;
     background-color: #04634d;
     color: white;
@@ -31,4 +31,11 @@ grid-row-gap: 0px;
 .nav-links a:hover {
     background-color: #058265;
     border-radius: 4px
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
 }
