@@ -1,4 +1,4 @@
-.parent {
+.home {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(4, 1fr);
@@ -21,16 +21,16 @@ grid-row-gap: 0px;
     align-items: center;
     background-color: #04634d;
     color: white;
+    font-size: 1.458vw;
 }
-
 .nav-links a {
     color: white;
     text-decoration: none;
     margin-left: 25px;
     padding: 5px 5px;
     transition: background-color 0.5s ease;
+    font-size: 1.25vw;
 }
-
 .nav-links a:hover {
     background-color: #058265;
     border-radius: 4px
@@ -42,20 +42,20 @@ grid-row-gap: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #e3e3e3;
-    border: 8px solid white;
+    border: 8px solid #e3e3e3;
     padding: 25px;
-    font-size: 0.938;
+    font-size: 1.25vw;
 }
+
+
 .why {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #e3e3e3;
-    border: 8px solid white;
+    border: 8px solid #e3e3e3;
     padding: 25px;
-    font-size: 0.938vw;
+    font-size: 1.25vw;
 }
 
 
@@ -64,9 +64,30 @@ grid-row-gap: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    border: 8px solid #116149;
+    background-color: #f0f0f0;
+    border: 8px solid #e3e3e3;
     padding: 25px;
-    font-size: 0.938vw;
+    font-size: 1.25vw;
 }
 
+
+
+.footer {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.ft.content { grid-area: 1 / 1 / 2 / 2; }
+.ft.gallery { grid-area: 2 / 1 / 3 / 2; }
+.ft.resources { grid-area: 3 / 1 / 4 / 2; }
+.ft.misc { grid-area: 4 / 1 / 5 / 2; }
+
+
+.footer{
+    background-color: #3d403d;
+    border: 8px solid #116149;
+    color: white;
+}
