@@ -1,9 +1,9 @@
 .home {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(4, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .navigation { grid-area: 1 / 1 / 2 / 6; }
@@ -14,20 +14,19 @@ grid-row-gap: 0px;
 
 
 .navigation {
-    top: margin 100%;
-    bottom: margin 20%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #04634d;
     color: white;
     font-size: 1.354vw;
+    transition: 2.5s ease;
 }
 .nav-links a {
     color: white;
     text-decoration: none;
     margin-left: 25px;
-    padding: 5px 5px;
+    padding: 5px;
     transition: background-color 0.5s ease;
     font-size: 1.25vw;
 }
@@ -42,9 +41,11 @@ grid-row-gap: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    transition: 1.5s ease;
+    font-size: 0.938vw;
     border: 8px solid #e3e3e3;
     padding: 25px;
-    font-size: 0.938vw;
 }
 
 
@@ -53,9 +54,11 @@ grid-row-gap: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-size: 0.938vw;
+    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
-    font-size: 0.938vw;
 }
 
 
@@ -64,20 +67,22 @@ grid-row-gap: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-size: 0.938vw;
+    transition: 1.5s ease;
     background-color: #f0f0f0;
     border: 8px solid #e3e3e3;
     padding: 25px;
-    font-size: 0.938vw;
 }
 
 
 
 .footer {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: repeat(4, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .ft.content { grid-area: 1 / 1 / 2 / 2; }
@@ -95,7 +100,10 @@ grid-row-gap: 0px;
     border: 8px solid #116149;
 }
 
-.footer-links{
+.footer-links a {
     color: white;
-    font-size: ;
+    text-decoration: none;
+    transition: 1.5s ease;
+    transition: background-color 0.5s ease;
+    font-size: 0.833vw;
 }
