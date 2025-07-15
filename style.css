@@ -76,7 +76,7 @@
 }
 
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,4 +94,8 @@
     transition: 1.5s ease;
     transition: background-color 0.5s ease;
     font-size: 0.833vw;
+}
+.footer-links a:hover {
+    background-color: #116149;
+    border-radius: 4px
 }
