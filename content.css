@@ -23,7 +23,6 @@ grid-row-gap: 0px;
     background-color: #04634d;
     color: white;
     font-size: 1.354vw;
-    transition: 2.5s ease;
 }
 .nav-links a {
     color: white;
@@ -46,7 +45,6 @@ grid-row-gap: 0px;
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
@@ -59,7 +57,6 @@ grid-row-gap: 0px;
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
@@ -72,7 +69,6 @@ grid-row-gap: 0px;
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
@@ -85,7 +81,6 @@ grid-row-gap: 0px;
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
@@ -98,7 +93,6 @@ grid-row-gap: 0px;
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
@@ -111,7 +105,6 @@ grid-row-gap: 0px;
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
@@ -132,7 +125,6 @@ grid-row-gap: 0px;
     margin-left: 25px;
     margin-right: 25px;
     padding: 5px;
-    transition: 1.5s ease;
     transition: background-color 0.5s ease;
     font-size: 0.833vw;
 }

@@ -4,6 +4,7 @@
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    transition: 1.5s ease;
 }
 
 .navigation { grid-area: 1 / 1 / 2 / 6; }
@@ -20,7 +21,6 @@
     background-color: #04634d;
     color: white;
     font-size: 1.354vw;
-    transition: 2.5s ease;
 }
 .nav-links a {
     color: white;
@@ -42,7 +42,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition: 1.5s ease;
     font-size: 0.938vw;
     border: 8px solid #e3e3e3;
     padding: 25px;
@@ -56,7 +55,6 @@
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
@@ -69,7 +67,6 @@
     justify-content: center;
     text-align: center;
     font-size: 0.938vw;
-    transition: 1.5s ease;
     background-color: #f0f0f0;
     border: 8px solid #e3e3e3;
     padding: 25px;
@@ -91,7 +88,6 @@
     margin-left: 25px;
     margin-right: 25px;
     padding: 5px;
-    transition: 1.5s ease;
     transition: background-color 0.5s ease;
     font-size: 0.833vw;
 }
