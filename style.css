@@ -1,3 +1,8 @@
+/* Home Page (index.html) */
+
+/* CSS Grid */
+
+/*Refers to how the grid is laid out using the parent divider*/
 .home {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -7,6 +12,7 @@
     transition: 1.5s ease;
 }
 
+/* The grids for each divider */
 .navigation { grid-area: 1 / 1 / 2 / 6; }
 .about { grid-area: 2 / 1 / 3 / 3; }
 .why { grid-area: 2 / 3 / 3 / 5; }
@@ -14,22 +20,27 @@
 .footer { grid-area: 4 / 1 / 5 / 5; }
 
 
+/* Css for each aspect of the Navbar */
+
+/* For the divider called navigation */
 .navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex; /* Flexbox is used to align and position the items in the divider */
+    justify-content: space-around; /* Space around the items in the navbar */
+    align-items: center; /* aligned to the center of the divider */
     background-color: #04634d;
     color: white;
-    font-size: 1.354vw;
+    font-size: 1.354vw; /* Allows the font size to change as the website is minimised */
 }
+/*Css for the links in the navbar itself*/
 .nav-links a {
     color: white;
     text-decoration: none;
     margin-left: 25px;
     padding: 5px;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease; /* Transitions the background color of the link */
     font-size: 1.25vw;
 }
+/*Css for the links as the cursor is hovering above it*/
 .nav-links a:hover {
     background-color: #058265;
     border-radius: 4px
@@ -72,7 +83,9 @@
     padding: 25px;
 }
 
+/*Css for footer*/
 
+/*Css for the divider - footer*/
 .footer {
     display: flex;
     flex-direction: column;
@@ -82,6 +95,7 @@
     border: 8px solid #116149;
 }
 
+/*Css for the footer links*/
 .footer-links a {
     color: white;
     text-decoration: none;
@@ -91,6 +105,7 @@
     transition: background-color 0.5s ease;
     font-size: 0.833vw;
 }
+/*Css for footer links when the cursor is hovering above it*/
 .footer-links a:hover {
     background-color: #116149;
     border-radius: 4px

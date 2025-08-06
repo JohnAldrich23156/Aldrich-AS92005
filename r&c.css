@@ -1,3 +1,5 @@
+/* Navigation Bar CSS */
+
 .navigation {
     display: flex;
     justify-content: space-around;
@@ -24,19 +26,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     font-size: 1.25vw;
+    background-color: #c9c7c7;
     border: 8px solid #e3e3e3;
     padding: 25px;
 }
 
-.resource-links {
+.resource-links a {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 5px;
+    background-color: ;
+    border-radius: 6px;
+    transition: background-color 0.5s ease;
     font-size: 1.25vw;
+}
+.resource-links a:hover {
+    color white;
+    background-color: #058265;
+    border-radius: 4px
 }
 
 .contact {
